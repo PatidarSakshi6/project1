@@ -1,0 +1,60 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+}
+.img1{
+    background-image: url(https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q=);
+    height: 700px;
+}
+.img2{
+    background-image: url(https://media.istockphoto.com/photos/renewable-energy-and-sustainable-development-picture-id1186330948?k=20&m=1186330948&s=612x612&w=0&h=5aNPCcQ8FcZraX44PEhb2mqcHkow2xMITJMHdh28xNg=);
+    height: 700px;
+}
+.img3{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg);
+    height: 700px;
+}
+.img1,.img2,.img3{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.ptext{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    top:50%;
+    width: 100%;
+}
+.textbg{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+h2{
+    text-transform: uppercase;
+}
+.section1{
+    padding: 50px 80px;
+    text-align: center;
+    background-color: white;
+    color: gray;
+}
+.section2{
+    padding: 50px 80px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+.section3{
+    padding: 50px 80px;
+    text-align: center;
+    background-color: lightblue;
+    color: darkgreen;
+}
